@@ -12,7 +12,9 @@ int main() {
             c = c * (n - k);
             c = c / (k + 1);
         }
-    } else
+    } else {
         printf("Puck you, Verter!");
+        return 1;
+    }
     return 0;
 }
