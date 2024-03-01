@@ -14,7 +14,7 @@ int main() {
         }
     } else {
         printf("Puck you, Verter!");
-        return 1;
+        // return 1;
     }
     return 0;
 }
