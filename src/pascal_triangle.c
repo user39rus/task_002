@@ -3,7 +3,7 @@
 int main() {
     int n;
 
-    if (scanf("%d", &n) == 1 && n > 0 && n < 30) {
+    if (scanf("%d", &n) == 1 && n > 0 && n < 31) {
         printf("1");
         --n;
         int c = n;

@@ -13,7 +13,7 @@ int main() {
                 printf("%d", bc(i, j));
                 if (m == n - 1) {
                     m = 0;
-                    printf("\n");
+                    if (end != n * n - 1) printf("\n");
                 } else {
                     printf(" ");
                     m++;
